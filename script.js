@@ -1,7 +1,7 @@
 const actions = Array.from(document.querySelectorAll("[data-action]"));
 
 let counter = localStorage.getItem("counter") || 0;
-let num = 10;
+let num = 1;
 
 document.querySelector(".counter-value").innerText = counter;
 
